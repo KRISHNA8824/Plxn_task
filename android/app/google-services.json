@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "21917572685",
+    "firebase_url": "https://plxntask-759a1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "plxntask-759a1",
+    "storage_bucket": "plxntask-759a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21917572685:android:27a83e6b7ddf9d52154604",
+        "android_client_info": {
+          "package_name": "com.example.plxntask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21917572685-6rua0p8s27k3hjepadkgk004mtd8b9rd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.plxntask",
+            "certificate_hash": "b05ea132493d14b515806b4519d07c51bcdd7e4c"
+          }
+        },
+        {
+          "client_id": "21917572685-04k9aeuok7pv81dkn352a9h18849jhn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmZfF_S6cPY3_Qq0hIRM6bL6kM_-kdPzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21917572685-04k9aeuok7pv81dkn352a9h18849jhn7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "21917572685-kj49og48hm1pd21ehgnhl3gvasgmhtu3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.plxntask"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
