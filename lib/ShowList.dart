@@ -58,13 +58,20 @@ class ShowList extends StatelessWidget {
 
                           },
                           child: Container(
-                            padding: const EdgeInsets.fromLTRB(10, 30, 10, 0),
+                            padding: const EdgeInsets.all(10),
+                            margin: new EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
+                            width: MediaQuery.of(context).size.width,
+                            decoration: BoxDecoration(
+                                border: Border.all(color: Colors.blueAccent)
+                            ),
                             child: Text(
                               (snapshot.value as Map) ["Email"],
-                              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold,),
                             ),
 
                           ),
+
                         )
 
 
@@ -79,4 +86,19 @@ class ShowList extends StatelessWidget {
       ),
     );
   }
+}
+
+Widget customeEmail() {
+  return Container(
+      width: 200,
+      alignment: Alignment.center,
+      padding: const EdgeInsets.all(10),
+      // decoration: BoxDecoration(
+      //     border: Border.all(color: Colors.blueAccent)
+      // ),
+      child: const Text(
+        'Fill the Details',
+        style: TextStyle(fontSize: 25),
+      )
+  );
 }
